@@ -1,0 +1,21 @@
+{
+	"dropdownTable" : [{"key":"","value":""},
+						{"key":"Table1","value":"Table 1"}, 
+						{"key":"Table2","value":"Table 2"}, 
+						{"key":"Table3","value":"Table 3"}, 
+						{"key":"Table4","value":"Table 4"}],
+	"Table1" : [{
+					"AAA" : "aaaa1", "BBB" : "bbbb1", "CCC" : "cccc1"
+				},{
+					"AAA" : "aaaaaa2", "BBB" : "bbbb2", "CCC" : "cccc2"
+				}],
+	"Table2" : [{
+					"DDD" : "ddddd1", "EEE" : "eeee1", "FFF" : "fffff1"
+				},{
+					"DDD" : "ddddd2", "EEE" : "eeeee2", "FFF" : "fffff2"
+				}],
+	"Table1_Col" : ["AAaaA", "BaaaBB", "CaaaCC"],
+	"Table1_Row" : ["AAA", "BBB", "CCC"],
+	"Table2_Col" : ["Dee", "BaaaBB", "CaaaCC"],
+	"Table2_Row" : ["DDD", "EEE", "FFF"]
+}

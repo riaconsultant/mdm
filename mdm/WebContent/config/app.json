@@ -14,12 +14,31 @@
 			"align":"left/right/center"
 		},
 		"details":{
-			"tools":[{
-				"add":"true",
-				"update":"true",
-				"delete":"true",
-				"import":"true",
-				"export":"true"
+			"actions":[{
+				"label":"Add",
+				"serviceUrl":"/",
+				"serviceMethod":"get"
+				},{
+				"label":"update",
+				"serviceUrl":"/",
+				"serviceMethod":"get"
+				},{
+				"label":"delete",
+				"serviceUrl":"/",
+				"serviceMethod":"get"
+				},{
+				"label":"import",
+				"serviceUrl":"/",
+				"serviceMethod":"get"
+				},{
+				"label":"export",
+				"serviceUrl":"/",
+				"serviceMethod":"get"
+				},
+				{
+				"label":"refresh",
+				"serviceUrl":"/",
+				"serviceMethod":"get"
 				}],
 			"Table1":{
 				"columns":[{
